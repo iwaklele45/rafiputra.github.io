@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  transition: 2s;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  position: fixed; /* Fixed position */
+  top: 0; /* Stick to the top of the viewport */
+  width: 100%; /* Occupy the full width */
+  z-index: 100; /* Ensure it's above other content */
+  display: flex;
+  justify-content: center; /* Center the navigation bar horizontally */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  width: 900px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 35px;
+  padding-right: 200px;
+  word-spacing: 5px;
+  line-height: 1.2;
+  margin: 10px 0 10px 0;
+}
+
+article {
+  text-align: left;
+  margin-left: 50px;
+}
+
+article .author {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+article .date {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container p {
+  width: 800px;
+  margin: 10px 0 20px 0;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.container p span {
+  font-size: 40px;
+  font-weight: bold;
+  color: orange;
+}
+
+article strong {
+  font-size: 25px;
+}
+
+.photo-poin {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.contact a img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
